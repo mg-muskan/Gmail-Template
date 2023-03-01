@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Roboto Condensed Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Roboto Condensed';
+        }
+        #gmail-template {
+            display: flex;
+            min-height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: #dfe6e9;
+        }
+        .gmail-template-main {
+            width: 766px;
+        }
+        .company-gmail-logo,
+        .gmail-temp-ending-logo {
+            display: flex;
+            align-items: center;
+        }
+        .company-gmail-logo > img,
+        .gmail-temp-ending-logo > img {
+            width: 260px;
+            height: 60px;
+            margin: 30px 10px 30px 50px;
+        }
+        .gmail-temp-content-box {
+            margin: 25px 50px 50px;
+            padding: 40px;
+            color: #000;
+            background-color: #fff;
+            border: 1px solid #41464b;
+        }
+        .gmail-temp-greetings > h1 {
+            font-weight: 200;
+        }
+        .gmail-temp-content-rest {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .gmail-pass-btn {
+            margin: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .gmail-pass-reset-btn {
+            padding: 10px;
+            color: #000;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #41464b;
+            box-shadow: 1px 2px 4px 4px rgba(0, 0, 0, 0.1);
+        }
+        .gmail-pass-reset-btn:hover {
+            color: #fff;
+            background-color: #ffa502;
+            background-color: #3742fa;
+            transition: all .3s ease-in-out;
+        }
+        .gmail-reach-out {
+            color: #000;
+        }
+        .gmail-temp-signature {
+            margin-top: 30px;
+        }
+        .gmail-temp-ending {
+            display: flex;
+            margin-top: -30px;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .gmail-temp-ending-rest {
+            color: #41464b;
+            text-align: center;
+            margin: -15px 10px 0 10px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <section id="gmail-template">
+
+        <div class="gmail-template-main">
+
+            <div class="company-gmail-logo">
+                <img src="img/LogoBlack.png" alt="">
+            </div>
+
+            <div class="gmail-temp-content-box">
+                <div class="gmail-temp-content">
+                    <div class="gmail-temp-greetings">
+                        <h1>Hello email@example.com,</h1>
+                    </div>
+
+                    <div class="gmail-temp-content-rest">
+                        <h3>A request has been received to change your password for your Endiavolve account.</h3>
+
+                        <div class="gmail-pass-btn">
+                            <a href="" type="button" class="gmail-pass-reset-btn">Reset Password</a>
+                        </div>
+
+                        <p>If you did not initiate this process, please contact us immediately at <a href="mailto:contact@endiavolve.com" class="gmail-reach-out">contact@endiavolve.com</a>.</p>
+
+                        <div class="gmail-temp-signature">
+                            <p>Thank you,</p>
+                            <p>The Endiavolve Team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gmail-temp-ending">
+                <div class="gmail-temp-ending-logo">
+                    <img src="img/LogoBlack.png" alt="">
+                </div>
+                
+                <div class="gmail-temp-ending-rest">
+                    Copyrights <i class="fa fa-copyright" aria-hidden="true"></i> 2022 <br> All Rights Reserved by Endiavolve online education technology Pvt. Ltd.
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+</html>
